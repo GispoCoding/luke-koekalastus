@@ -1,0 +1,9 @@
+site_name: LUKE-koekalastus
+site_url: https://github.com/GispoCoding/luke-koekalastus
+copyright: 'Tekijä: <a href="info@gispo.fi">Gispo Suomi Oy</a>'
+nav:  
+  - Koti: 0_index.md
+  
+use_directory_urls: false
+theme:
+  name: readthedocs

@@ -1,0 +1,3 @@
+# Tervetuloa LUKE:n koekalastuksen QField-kokeilun ohjesivuille!
+
+Tänne päivittyy ohjeistus piakkoin...
