@@ -3,7 +3,15 @@ site_url: https://github.com/GispoCoding/luke-koekalastus
 copyright: 'Tekijä: <a href="info@gispo.fi">Gispo Suomi Oy</a>'
 nav:  
   - Koti: 0_index.md
-  
+  - 1. Alkuvalmistelut: 1_alkuvalmistelut.md
+  - 2. Projektin vienti QFieldiin: 2_vienti.md
+  - 3. QFieldin peruskäyttö: 3_qfield.md
+  - 4. Koekalastus-PoC:n käyttö: 4_koekalastus.md
+  - 5. QFieldistä QGISiin: 5_qfieldista_qgisiin.md
+
 use_directory_urls: false
 theme:
   name: readthedocs
+
+markdown_extensions:
+  - footnotes
