@@ -27,6 +27,7 @@ Kun edeltävien sivujen toimenpiteet on tehty (valmistelu QGISillä, paketointi 
    10. Tämän jälkeen syötetään seuraavan solmuvälin tiedot samaan tapaan
    11. Kun kaikki solmuvälit syötetty painetaan vasemmasta yläkulmasta tarkistusmerkki-painiketta
    12. Tämän jälkeen painetaan vielä uudelleen tarkistusmerkkiä niin kaikki tiedot tallentuvat.
+   13. 
 
 <video width="640" height="360" controls>
   <source src="img/koekalastustietojen_lisays.mp4" type="video/mp4">
