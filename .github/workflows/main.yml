@@ -11,6 +11,9 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - run: pip install mkdocs
+      - run: 
+          pip install mkdocs
+          pip install mkdocs-material # Install mkdocs-material here!
+          pip install pymdown-extensions # Install pymdown-extensions if you use it.
       - run: mkdocs gh-deploy --force --clean --verbose
         
