@@ -6,10 +6,7 @@ Kun edeltävien sivujen toimenpiteet on tehty (valmistelu QGISillä, paketointi 
 
 - Esimerkiksi kuvaustyylit ja tiedonsyöttö-lomakkeet on konfiguroitu QGISissa, ja näitä voidaan muuttaa halutunlaisiksi.
 
-## Tietojen keruu ja muokkaus
-
-QGISissä valmisteltu Geopackage-tiedosto (koekalastus_vlatest.gpkg), sisältää tasoja, jotka on mallinnettu koekalastusprosessien tietotarpeiden pohjalta. Odotetusti, muutokset tietomalliin on toteutettavissa myös PoC-projektin jälkikäteen.
-
+## Koekalastukseen liittyvien tietojen keruu 
 1. Valitse kartalta havaintopiste
 2. Avaa kohteen tiedot
 3. Klikkaa muokkaustila päälle
@@ -26,10 +23,10 @@ QGISissä valmisteltu Geopackage-tiedosto (koekalastus_vlatest.gpkg), sisältä�
    6. Syötä kalojen määrät oikeisiin pituus-kenttiin
    7. Jos haluat syöttää toisesta kokoluokasta myös määriä niin vaihda kokoluokka ja syötä määrät toisesta.
    8. Jos kokonaislukumäärä ja syötettyjen pituus-kenttien lukumäärät ovat eri ilmoitetaan tästä käyttäjällä.
-   9. Kun Solmuvälin tiedot on syötetty valitaan vasemmasta yläkylmasta :heavy_check_mark:
+   9. Kun Solmuvälin tiedot on syötetty valitaan vasemmasta yläkylmasta :white_check_mark:
    10. Tämän jälkeen syötetään seuraavan solmuvälin tiedot samaan tapaan
-   11. Kun kaikki solmuvälit syötetty valitaan vasemmasta yläkulmasta :heavy_check_mark:
-   12. Tämän jälkeen vielä uudelleen :heavy_check_mark: niin kaikki tiedot tallentuvat.
+   11. Kun kaikki solmuvälit syötetty valitaan vasemmasta yläkulmasta :white_check_mark:
+   12. Tämän jälkeen vielä uudelleen :white_check_mark: niin kaikki tiedot tallentuvat.
 
 
 [<img src="img/qfield_koemetsikko.png" width="300" />](img/qfield_koemetsikko.png)
