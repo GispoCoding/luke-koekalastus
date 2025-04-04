@@ -1,10 +1,6 @@
 # Koekalastukseen tarkoitetun PoC-version käyttäminen
 
-Kun edeltävien sivujen toimenpiteet on tehty (valmistelu QGISillä, paketointi ja siirto QFieldiin, asetusten ja käyttäjnimen muokkaus) on tehty, voidaan ruveta testaamaan koekalastukseen tarkoitetun PoC-version käyttöä tiedon keruuseen. 
-
-## Huomioita 
-
-- Esimerkiksi kuvaustyylit ja tiedonsyöttö-lomakkeet on konfiguroitu QGISissa, ja näitä voidaan muuttaa halutunlaisiksi.
+Kun edeltävien sivujen toimenpiteet on tehty ja on saatu GeoPackage auki QFieldissa, voidaan ruveta testaamaan koekalastukseen tarkoitetun PoC-version käyttöä tiedon keruuseen. 
 
 ## Koekalastukseen liittyvien tietojen keruu 
 1. Valitse kartalta havaintopiste
@@ -27,7 +23,6 @@ Kun edeltävien sivujen toimenpiteet on tehty (valmistelu QGISillä, paketointi 
    10. Tämän jälkeen syötetään seuraavan solmuvälin tiedot samaan tapaan
    11. Kun kaikki solmuvälit syötetty painetaan vasemmasta yläkulmasta tarkistusmerkki-painiketta
    12. Tämän jälkeen painetaan vielä uudelleen tarkistusmerkkiä niin kaikki tiedot tallentuvat.
-   13. 
 
 <video width="640" height="360" controls>
   <source src="img/koekalastustietojen_lisays.mp4" type="video/mp4">
