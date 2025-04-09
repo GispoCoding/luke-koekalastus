@@ -2,7 +2,7 @@
 
 Kun edeltävien sivujen toimenpiteet on tehty ja on saatu GeoPackage auki QFieldissa, voidaan ruveta testaamaan koekalastukseen tarkoitetun PoC-version käyttöä tiedon keruuseen.
 
-## 1. Koekalastukseen liittyvien tietojen keruu
+## Koekalastukseen liittyvien tietojen keruu
 
 1.  Valitse kartalta havaintopiste
 
@@ -56,13 +56,9 @@ Kun edeltävien sivujen toimenpiteet on tehty ja on saatu GeoPackage auki QField
 
     -   Tämän jälkeen painetaan vielä uudelleen tarkistusmerkkiä niin kaikki tiedot tallentuvat.
 
-<video width="640" height="360" controls>
+<video width="640" height="360" controls><source src="img/koekalastustietojen_lisays.mp4" type="video/mp4"></video>
 
-<source src="img/koekalastustietojen_lisays.mp4" type="video/mp4">
-
-Your browser does not support the video tag. </video>
-
-## 2. Uuden havaintopaikan syöttäminen.
+## Uuden havaintopaikan syöttäminen.
 
 1.  Valitse tasot-valikosta havaintopaikka-taso
 
@@ -82,13 +78,11 @@ Your browser does not support the video tag. </video>
 
 7.  Paina lopuksi tarkistusmerkkiä, jolloin havainnot tallentuvat
 
-    ![](img/tallenna_muokkaukset_qfield.png) <video width="640" height="360" controls>
+    ![](img/tallenna_muokkaukset_qfield.png) 
+    
+<video width="640" height="360" controls><source src="img/havaintopaikan_lisays.mp4" type="video/mp4"></video>
 
-<source src="img/havaintopaikan_lisays.mp4" type="video/mp4">
-
-Your browser does not support the video tag. </video>
-
-## 3. Uuden koekalastusjakson lisäys
+## Uuden koekalastusjakson lisäys
 
 1.  Valitse tasot-valikosta koekalastusjakso-taso
 
@@ -114,7 +108,7 @@ Your browser does not support the video tag. </video>
 
 [<img src="img/koekalastusjakso.gif" width="300"/>](img/koekalastusjakso.gif)
 
-## 4. Uuden pyynti-tapahtuman lisäys
+## Uuden pyynti-tapahtuman lisäys
 
 1.  Valitse pyynti-valikosta havaintopaikka-taso
 
