@@ -37,10 +37,19 @@ Jos et ole vielä kytkennyt omaa puhelinta tietokoneeseen esimerkiksi usb-kaapel
 
 Your browser does not support the video tag. </video>
 
-**Huom!** 
+## Projektin avaaminen Google driven avaulla (Android)
 
-Tässä mainittu tapa siirtää tiedostot usb-kaapelilla ei suinkaan ole ainoa mahdollinen, vaan mikä tahansa tapa siirtää tiedostja laitteiden välillä sinällään käy. 
+1. Avaa Google drive- puhelimellasi 
+2 Klikkaa GeoPackage -tiedostoa, joka on jaettu sinulle. (Yleensä näkyy heti aloitussivulla)
+5. Valitse sovellukseksi QField.
+6. QField sovellus aukeaa, jossa on projektitiedosto valmiiksi ladattuna.
 
+
+<video width="640" height="360" controls>
+
+<source src="img/qfield_projektin_avaus_drivesta.mp4" type="video/mp4">
+
+Your browser does not support the video tag. </video>
 ---
 ## Tiedostojen siirto
 Siirtäminen tapahtuu esimerkiksi raahaamalla edellä luotu tiedostokansio (videossa nimellä testiversio1), tai kopioimalla tiedostoina  kuten esimerkissä alla. Suosittelemme että luot uuden kansion jokaiselle projektille, jotta tiedostopolut ovat selkeitä.
