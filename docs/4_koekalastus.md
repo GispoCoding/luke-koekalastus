@@ -24,18 +24,35 @@ Kun edeltävien sivujen toimenpiteet on tehty ja on saatu GeoPackage auki QField
 
 8.  Syötä verkon saalis Verkon saalis välilehden + painikkeesta.
 
-    1.  Anna solmuväli
-    2.  Valitse laji
-    3.  Syötä lukumäärä
-    4.  Syötä yhteispaino
-    5.  Valitse kalojen kokoluokka
-    6.  Syötä kalojen määrät oikeisiin pituus-kenttiin
-    7.  Jos haluat syöttää toisesta kokoluokasta myös määriä niin vaihda kokoluokka ja syötä määrät toisesta.
-    8.  Jos kokonaislukumäärä ja syötettyjen pituus-kenttien lukumäärät ovat eri ilmoitetaan tästä käyttäjällä.
-    9.  Kun Solmuvälin tiedot on syötetty painetaan vasemmasta yläkylmasta tarkistusmerkki
-    10. Tämän jälkeen syötetään seuraavan solmuvälin tiedot samaan tapaan
-    11. Kun kaikki solmuvälit syötetty painetaan vasemmasta yläkulmasta tarkistusmerkki-painiketta
-    12. Tämän jälkeen painetaan vielä uudelleen tarkistusmerkkiä niin kaikki tiedot tallentuvat.
+    ![Lisää uusi kohde](img/lisaa_uusi_kohde_qfield.png){alt="Lisää uusi kohde"}
+
+    -   Anna solmuväli
+
+    -   Valitse laji
+
+    -   Syötä lukumäärä
+
+    -   Syötä kokonaispaino
+
+    -   Valitse kalojen kokoluokka
+
+    -   Syötä kalojen määrät oikeisiin pituus-kenttiin
+
+    -   Jos haluat syöttää usesasta eri kokoluokasta määriä niin vaihda vain kokoluokka ja syötä määrät oikeisiin kohtiin.
+
+    -   Jos kokonaislukumäärä ja syötettyjen pituus-kenttien lukumäärät ovat eri ilmoitetaan tästä käyttäjällä.
+
+    -   Kun Solmuvälin tiedot on syötetty painetaan vasemmasta yläkylmasta tarkistusmerkki
+
+        ![](img/tallenna_muokkaukset_qfield.png)
+
+    -   Tämän jälkeen syötetään seuraavan solmuvälin tiedot samaan tapaan
+
+    -   Kun kaikki solmuvälit syötetty painetaan vasemmasta yläkulmasta tarkistusmerkki-painiketta
+
+        ![](img/tallenna_muokkaukset_qfield.png)
+
+    -   Tämän jälkeen painetaan vielä uudelleen tarkistusmerkkiä niin kaikki tiedot tallentuvat.
 
 <video width="640" height="360" controls>
 
@@ -63,8 +80,7 @@ Your browser does not support the video tag. </video>
 
 7.  Paina lopuksi tarkistusmerkkiä, jolloin havainnot tallentuvat
 
-    ![](img/tallenna_muokkaukset_qfield.png)
-<video width="640" height="360" controls>
+    ![](img/tallenna_muokkaukset_qfield.png) <video width="640" height="360" controls>
 
 <source src="img/havaintopaikan_lisays.mp4" type="video/mp4">
 
@@ -90,9 +106,7 @@ Your browser does not support the video tag. </video>
 
 7.  Syötä koekalastajat
 
-8.  Valitse havaintopaikan havaintoalue
-
-9.  Paina lopuksi tarkistusmerkkiä
+8.  Paina lopuksi tarkistusmerkkiä
 
     ![](img/tallenna_muokkaukset_qfield.png)
 
@@ -114,7 +128,7 @@ Your browser does not support the video tag. </video>
 
 5.  Jos häiriötekijöitä laita valinta päälle ja kirjoita avautuvaan kenttään häiriötekijän kuvaus.
 
-6.  Valitse koekalastusjakso johon pyynti liittyy
+6.  Valitse koekalastusjakso, johon pyynti liittyy
 
 7.  Paina lopuksi taas tarkistusmerkkiä
 
