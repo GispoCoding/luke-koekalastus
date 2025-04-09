@@ -2,18 +2,17 @@
 
 ## Projektin pakkaaminen
 
-QGIS-projekti viedään QFieldiin kopioimalla tarvittavat tiedostot sisältävä kansio tietokoneelta mobiililaitteelle. Ensin pitää kuitenkin tehdä pakkaaminen QField Sync-lisäosan kautta. Avaa **Pakkaa QFieldiä varten** "Package for QField" työkalupalkista 
+QGIS-projekti viedään QFieldiin kopioimalla tarvittavat tiedostot sisältävä kansio tietokoneelta mobiililaitteelle. Ensin pitää kuitenkin tehdä pakkaaminen QField Sync-lisäosan kautta. Avaa **Pakkaa QFieldiä varten** "Package for QField" työkalupalkista
 
-[<img src="img/qfieldsync_pakkaa.png" width="150" />](img/qfieldsync_pakkaa.png)
+[<img src="img/qfieldsync_pakkaa.png" width="150"/>](img/qfieldsync_pakkaa.png)
 
-tai valikosta **Lisäosat-> QFieldSync-> Pakkaa QFieldiä varten**. Oletuskansiona, johon QField-projekti paketoidaan, on käyttäjän kotikansion alla olevan QField-kansion Export-alikansio (Esim. C:\Users\käyttäjänimi\QField\Export). Valitse tai luo tyhjä kansio sopivaan sijaintiin ja paina **Luo** (Create). Prosessin valmistuttua QGISin karttaikkunan ylälaidan palkkiin tulee ilmoitus onnistumisesta ja kansiosijainti, jota klikkaamalla pääsee ko. sijaintiin.
+tai valikosta **Lisäosat-\> QFieldSync-\> Pakkaa QFieldiä varten**. Oletuskansiona, johon QField-projekti paketoidaan, on käyttäjän kotikansion alla olevan QField-kansion Export-alikansio (Esim. C:\Users\käyttäjänimi\QField\Export). Valitse tai luo tyhjä kansio sopivaan sijaintiin ja paina **Luo** (Create). Prosessin valmistuttua QGISin karttaikkunan ylälaidan palkkiin tulee ilmoitus onnistumisesta ja kansiosijainti, jota klikkaamalla pääsee ko. sijaintiin.
 
-Voit katsoa esimerkkiä alla olevasta videosta. 
-
+Voit katsoa esimerkkiä alla olevasta videosta.
 
 ![Pakkaaminen QFieldiin](img/package_for_qfield_2.gif)
 
-Jos et ole vielä kytkennyt omaa puhelinta tietokoneeseen esimerkiksi usb-kaapelilla, niin tee se. Käy sitten kopioimassa kaikki tiedostot (eli käytännössä em. kansio) jotka äsken loit lisäosan avulla ja siirrä ne puhelimeen sellaiseen sijaintiin, jonka  muistat. 
+Jos et ole vielä kytkennyt omaa puhelinta tietokoneeseen esimerkiksi usb-kaapelilla, niin tee se. Käy sitten kopioimassa kaikki tiedostot (eli käytännössä em. kansio) jotka äsken loit lisäosan avulla ja siirrä ne puhelimeen sellaiseen sijaintiin, jonka muistat.
 
 ---
 **Huom!**
@@ -40,7 +39,7 @@ Your browser does not support the video tag. </video>
 ## Projektin avaaminen Google driven avaulla (Android)
 
 1. Avaa Google drive- puhelimellasi 
-2 Klikkaa GeoPackage -tiedostoa, joka on jaettu sinulle. (Yleensä näkyy heti aloitussivulla)
+2. Klikkaa GeoPackage -tiedostoa, joka on jaettu sinulle. (Yleensä näkyy heti aloitussivulla)
 3. Valitse sovellukseksi QField.
 4. QField sovellus aukeaa, jossa on projektitiedosto valmiiksi ladattuna.
 
@@ -51,7 +50,9 @@ Your browser does not support the video tag. </video>
 
 Your browser does not support the video tag. </video>
 ---
+
 ## Tiedostojen siirto
-Siirtäminen tapahtuu esimerkiksi raahaamalla edellä luotu tiedostokansio (videossa nimellä testiversio1), tai kopioimalla tiedostoina  kuten esimerkissä alla. Suosittelemme että luot uuden kansion jokaiselle projektille, jotta tiedostopolut ovat selkeitä.
+
+Siirtäminen tapahtuu esimerkiksi raahaamalla edellä luotu tiedostokansio (videossa nimellä testiversio1), tai kopioimalla tiedostoina kuten esimerkissä alla. Suosittelemme että luot uuden kansion jokaiselle projektille, jotta tiedostopolut ovat selkeitä.
 
 ![Tiedostojen siirto puhelimeen](img/tiedostojen_siirto.gif)
