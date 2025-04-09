@@ -36,7 +36,7 @@ Jos et ole vielä kytkennyt omaa puhelinta tietokoneeseen esimerkiksi usb-kaapel
 
 Your browser does not support the video tag. </video>
 
-## Projektin avaaminen Google driven avaulla (Android)
+## Projektin avaaminen Google driven avulla (Android)
 
 1. Avaa Google drive- puhelimellasi 
 2. Klikkaa GeoPackage -tiedostoa, joka on jaettu sinulle. (Yleensä näkyy heti aloitussivulla)
