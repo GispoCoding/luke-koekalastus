@@ -48,6 +48,8 @@ Kun edeltävien sivujen toimenpiteet on tehty ja on saatu GeoPackage auki QField
 
     -   Tämän jälkeen syötetään seuraavan solmuvälin tiedot samaan tapaan
 
+    -   Tilastot välilehdelle päivttyy keskipaino sitä mukaa, kun lukuja syötetään (eli  "paino"  /  "lkm") 
+
     -   Kun kaikki solmuvälit syötetty painetaan vasemmasta yläkulmasta tarkistusmerkki-painiketta
 
         ![](img/tallenna_muokkaukset_qfield.png)
