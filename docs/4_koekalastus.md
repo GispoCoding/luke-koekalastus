@@ -2,7 +2,7 @@
 
 Kun edeltävien sivujen toimenpiteet on tehty ja on saatu GeoPackage auki QFieldissa, voidaan ruveta testaamaan koekalastukseen tarkoitetun PoC-version käyttöä tiedon keruuseen.
 
-## Koekalastukseen liittyvien tietojen keruu
+## 1. Koekalastukseen liittyvien tietojen keruu
 
 1.  Valitse kartalta havaintopiste
 
@@ -24,7 +24,7 @@ Kun edeltävien sivujen toimenpiteet on tehty ja on saatu GeoPackage auki QField
 
 8.  Syötä verkon saalis Verkon saalis välilehden + painikkeesta.
 
-    ![Lisää uusi kohde](img/lisaa_uusi_kohde_qfield.png){alt="Lisää uusi kohde"}
+    ![Lisää uusi kohde](img/lisaa_uusi_kohde_qfield.png)
 
     -   Anna solmuväli
 
@@ -60,7 +60,7 @@ Kun edeltävien sivujen toimenpiteet on tehty ja on saatu GeoPackage auki QField
 
 Your browser does not support the video tag. </video>
 
-## Uuden havaintopaikan syöttäminen.
+## 2. Uuden havaintopaikan syöttäminen.
 
 1.  Valitse tasot-valikosta havaintopaikka-taso
 
@@ -86,7 +86,7 @@ Your browser does not support the video tag. </video>
 
 Your browser does not support the video tag. </video>
 
-## Uuden koekalastusjakson lisäys
+## 3. Uuden koekalastusjakson lisäys
 
 1.  Valitse tasot-valikosta koekalastusjakso-taso
 
@@ -112,7 +112,7 @@ Your browser does not support the video tag. </video>
 
 [<img src="img/koekalastusjakso.gif" width="300"/>](img/koekalastusjakso.gif)
 
-## Uuden pyynti-tapahtuman lisäys
+## 4. Uuden pyynti-tapahtuman lisäys
 
 1.  Valitse pyynti-valikosta havaintopaikka-taso
 

@@ -20,6 +20,22 @@ Jos et ole vielä kytkennyt omaa puhelinta tietokoneeseen esimerkiksi usb-kaapel
 
  Jos tietokoneella ei pääse näkemään yhtään tiedostoja puhelimella, niin avaa puhelimen näyttö ja salli tarvittaessa yhteyden muodostaminen. Saattaa olla tarpeen myös tarkistaa puhelimen asetuksista, että tiedostojen siirto on sallittu, eikä pelkkä lataus.
 
+## Projektin avaaminen Google drive sähköposti-linkin avaulla
+
+1. Avaa sähköpostisovellus puhelimellasi.
+2. Avaa sähköpostiisi tullut viesti, jossa ilmoitettaan että sinulle on jaettu kohde
+3. Paina viestin "Avaa"- painiketta
+  Ensimmäisellä kerralla voi olla että sinulta kysytään varmistuskoodia, joka lähetettään sähköpostiisi. Syötä tämä sähköpostiisi lähetetty varmistuskoodi niin pääset jatkamaan.
+4. Lataa tiedosto "Lataa"-painikkeeen avulla.
+5. Kun tiedosto on ladattu, paina "Avaa" ja valitse sovellukseksi QField.
+6. QField sovellus aukeaa, jossa on projektitiedosto valmiiksi ladattuna.
+
+
+<video width="640" height="360" controls>
+
+<source src="img/qfield_projektin_avaus_spostista.mp4" type="video/mp4">
+
+Your browser does not support the video tag. </video>
 
 **Huom!** 
 
