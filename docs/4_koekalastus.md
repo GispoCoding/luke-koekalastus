@@ -10,11 +10,11 @@ Kun edeltävien sivujen toimenpiteet on tehty ja on saatu GeoPackage auki QField
 
 3.  Klikkaa muokkaustila päälle yläpalkin ikonista
 
-    ![](img/muokkaus_qfield.png){width="56"}
+    ![](img/muokkaus_qfield.png)
 
 4.  Syötä uusi kalastus tapahtuma + - painikkeesta
 
-    ![Lisää uusi kohde](img/lisaa_uusi_kohde_qfield.png){width="226" height="33"}
+    ![Lisää uusi kohde](img/lisaa_uusi_kohde_qfield.png)
 
 5.  Syötä kalastuksen kesto
 
@@ -49,13 +49,13 @@ Your browser does not support the video tag. </video>
 
 2.  Vaihda muokkaustilaan.
 
-    ![](img/muokkaus_qfield.png){width="56"}
+    ![](img/muokkaus_qfield.png)
 
 3.  Siirry kartalta uuden havaintopaikan kohtaan.
 
 4.  Tallenna uusi havaintopaikka + -painikkeesta
 
-    ![Lisää uusi kohde](img/lisaa_uusi_kohde_qfield.png){width="226" height="33"}
+    ![Lisää uusi kohde](img/lisaa_uusi_kohde_qfield.png)
 
 5.  Anna havaintopaikan nimi
 
@@ -63,8 +63,7 @@ Your browser does not support the video tag. </video>
 
 7.  Paina lopuksi tarkistusmerkkiä, jolloin havainnot tallentuvat
 
-    ![](img/tallenna_muokkaukset_qfield.png){width="53"}
-
+    ![](img/tallenna_muokkaukset_qfield.png)
 <video width="640" height="360" controls>
 
 <source src="img/havaintopaikan_lisays.mp4" type="video/mp4">
@@ -77,11 +76,11 @@ Your browser does not support the video tag. </video>
 
 2.  Vaihda muokkaustilaan.
 
-    ![](img/muokkaus_qfield.png){width="56"}
+    ![](img/muokkaus_qfield.png)
 
 3.  Tallenna uusi koekalastusjakso + -painikkeesta
 
-    ![Lisää uusi kohde](img/lisaa_uusi_kohde_qfield.png){width="226" height="33"}
+    ![Lisää uusi kohde](img/lisaa_uusi_kohde_qfield.png)
 
 4.  Anna koekalastusjakson nimi
 
@@ -95,7 +94,7 @@ Your browser does not support the video tag. </video>
 
 9.  Paina lopuksi tarkistusmerkkiä
 
-    ![](img/tallenna_muokkaukset_qfield.png){width="53"}
+    ![](img/tallenna_muokkaukset_qfield.png)
 
 [<img src="img/koekalastusjakso.gif" width="300"/>](img/koekalastusjakso.gif)
 
@@ -105,11 +104,11 @@ Your browser does not support the video tag. </video>
 
 2.  Vaihda muokkaustilaan.
 
-    ![](img/muokkaus_qfield.png){width="56"}
+    ![](img/muokkaus_qfield.png)
 
 3.  Tallenna uusi pyynti-tapahtuma + -painikkeesta
 
-    ![Lisää uusi kohde](img/lisaa_uusi_kohde_qfield.png){width="226" height="33"}
+    ![Lisää uusi kohde](img/lisaa_uusi_kohde_qfield.png)
 
 4.  Anna nostopäiväärä
 
@@ -119,6 +118,6 @@ Your browser does not support the video tag. </video>
 
 7.  Paina lopuksi taas tarkistusmerkkiä
 
-    ![](img/tallenna_muokkaukset_qfield.png){width="53"}
+    ![](img/tallenna_muokkaukset_qfield.png)
 
 [<img src="img/pyynti.gif" width="300"/>](img/pyynti.gif)
