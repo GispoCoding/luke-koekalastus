@@ -36,6 +36,7 @@ Jos et ole vielä kytkennyt omaa puhelinta tietokoneeseen esimerkiksi usb-kaapel
 
 Your browser does not support the video tag. </video>
 
+
 ## Projektin avaaminen Google driven avulla (Android)
 
 1. Avaa Google drive- puhelimellasi 
