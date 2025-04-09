@@ -41,8 +41,8 @@ Your browser does not support the video tag. </video>
 
 1. Avaa Google drive- puhelimellasi 
 2 Klikkaa GeoPackage -tiedostoa, joka on jaettu sinulle. (Yleensä näkyy heti aloitussivulla)
-5. Valitse sovellukseksi QField.
-6. QField sovellus aukeaa, jossa on projektitiedosto valmiiksi ladattuna.
+3. Valitse sovellukseksi QField.
+4. QField sovellus aukeaa, jossa on projektitiedosto valmiiksi ladattuna.
 
 
 <video width="640" height="360" controls>
