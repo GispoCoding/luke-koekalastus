@@ -5,5 +5,5 @@
 
 Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston: 
 
-- [QGIS-projekti (testiversio 0.04)](https://drive.google.com/file/d/1cVNLXE9XDCynnYMSlPpf3BVzd_OkVdb2/view?usp=sharing)
+- [QGIS-projekti (viimeisin versio))](https://drive.google.com/file/d/1cVNLXE9XDCynnYMSlPpf3BVzd_OkVdb2/view?usp=sharing)
 
