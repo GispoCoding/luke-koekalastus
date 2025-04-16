@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://github.com/GispoCoding/luke-koekalastus/2_vienti.html" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>2. Projektin vienti QFieldiin - LUKE-koekalastus</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "2. Projektin vienti QFieldiin";
+        var mkdocs_page_input_path = "2_vienti.md";
+        var mkdocs_page_url = "/GispoCoding/luke-koekalastus/2_vienti.html";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="." class="icon icon-home"> LUKE-koekalastus
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="0_index.html">Koti</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="1_alkuvalmistelut.html">1. Alkuvalmistelut</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">2. Projektin vienti QFieldiin</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#projektin-avaaminen-suoraan-tiedostosta">Projektin avaaminen suoraan tiedostosta</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#projektin-avaaminen-google-drive-sahkoposti-linkin-avaulla">Projektin avaaminen Google Drive sähköposti-linkin avaulla</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#projektin-pakkaaminen-ja-vienti-qfieldiin-qfielsync-qgis-lisaosan-avulla">Projektin pakkaaminen ja vienti QFieldiin QFielSync-QGIS-lisäosan avulla</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#projektin-pakkaaminen">Projektin pakkaaminen</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#tiedostojen-siirto">Tiedostojen siirto</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="3_qfield.html">3. QFieldin peruskäyttö</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="4_koekalastus.html">4. Koekalastus-PoC:n käyttö</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="5_qfieldista_qgisiin.html">5. QFieldistä QGISiin</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href=".">LUKE-koekalastus</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">2. Projektin vienti QFieldiin</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="projektin-avaaminen-qfieldissa">Projektin avaaminen QFieldissa</h1>
+<p>GeoPackage-tiedostoon tallennettu QGIS-projekti avautuu QFieldissa suoriltaan ilman välivaiheita. GeoPackagen voi avata eri tavoilla, ml. lataamalla GeoPackage-tiedoston Android-mobiilipäätteelle, avaamalla tiedoston Google Drive -linkin tai Google Drive -sovelluksen kautta. </p>
+<h2 id="projektin-avaaminen-suoraan-tiedostosta">Projektin avaaminen suoraan tiedostosta</h2>
+<p>Ladattuasi tiedoston Andoid-mobiililaitteelle voit joko klikata GeoPackage-tiedoston auki tiedostonhallinnasta tai avata tiedoston QField-sovelluksen kautta. Tärkeää on, että ladattuasi tiedoston Android-laitteella tiedät, mistä löydät GeoPackage-tiedoston (esim. /Download-kansion sisältä). </p>
+<p>Voit painaa Androidissa GeoPackage-tiedostoa ja laitteen pitäisi tunnistaa, että GeoPackage-tiedostotyyppi on yhteensopiva nimenomaan QField-sovelluksen kanssa ja avata se suoraan:</p>
+<video width="640" height="360" controls>
+  <source src="img/qfield_projektin_avaus_tiedostonhallinnasta.mp4" type="video/mp4">
+</video>
+
+<p>Saattaa olla, että on helpompi avata projekti QField-sovelluksen kautta osoittaen sovelluksesta, missä projektitiedosto sijaitsee:</p>
+<video width="640" height="360" controls>
+  <source src="img/qfield_projektin_avaus_qfieldin_kautta.mp4" type="video/mp4">
+</video>
+
+<h2 id="projektin-avaaminen-google-drive-sahkoposti-linkin-avaulla">Projektin avaaminen Google Drive sähköposti-linkin avaulla</h2>
+<p>Jos olet saanut Projektitiedoston jakoon Google Drive -kansion kautta, voit avata projektin myös sitä kautta:</p>
+<ol>
+<li>Avaa sähköpostisovellus puhelimellasi.</li>
+<li>Avaa sähköpostiisi tullut viesti, jossa ilmoitettaan että sinulle on jaettu kohde</li>
+<li>Paina viestin "Avaa"- painiketta
+  Ensimmäisellä kerralla voi olla että sinulta kysytään varmistuskoodia, joka lähetettään sähköpostiisi. Syötä tämä sähköpostiisi lähetetty varmistuskoodi niin pääset jatkamaan.</li>
+<li>Lataa tiedosto "Lataa"-painikkeeen avulla.</li>
+<li>Kun tiedosto on ladattu, paina "Avaa" ja valitse sovellukseksi QField.</li>
+<li>QField sovellus aukeaa, jossa on projektitiedosto valmiiksi ladattuna.</li>
+</ol>
+<video width="640" height="360" controls>
+  <source src="img/qfield_projektin_avaus_spostista.mp4" type="video/mp4">
+</video>
+
+<p>Voit myös hyödyntää Google Drive -sovellusta ja avata tiedoston sitä kautta:</p>
+<ol>
+<li>Avaa Google Drive- puhelimellasi </li>
+<li>Klikkaa GeoPackage -tiedostoa, joka on jaettu sinulle. (Yleensä näkyy heti aloitussivulla)</li>
+<li>Valitse sovellukseksi QField.</li>
+<li>QField sovellus aukeaa, jossa on projektitiedosto valmiiksi ladattuna.</li>
+</ol>
+<video width="640" height="360" controls>
+  <source src="img/qfield_projektin_avaus_drivesta.mp4" type="video/mp4">
+</video>
+
+<h2 id="projektin-pakkaaminen-ja-vienti-qfieldiin-qfielsync-qgis-lisaosan-avulla">Projektin pakkaaminen ja vienti QFieldiin QFielSync-QGIS-lisäosan avulla</h2>
+<p>Jos sinun tarvitsee tehdä edistyneitä määrityksiä projektitiedostoon, sinun on hyödynnettävä QFieldSync-QGIS-lisäosaa ja paketoida QField-projekti sitä kautta erilliseen tiedostohakemistoon.  </p>
+<h3 id="projektin-pakkaaminen">Projektin pakkaaminen</h3>
+<p>QGIS-projekti viedään QFieldiin kopioimalla tarvittavat tiedostot sisältävä kansio tietokoneelta mobiililaitteelle. Ensin pitää kuitenkin tehdä pakkaaminen QField Sync-lisäosan kautta. Avaa <strong>Pakkaa QFieldiä varten</strong> "Package for QField" työkalupalkista</p>
+<p><a href="img/qfieldsync_pakkaa.png"><img src="img/qfieldsync_pakkaa.png" width="150"/></a></p>
+<p>tai valikosta <strong>Lisäosat-&gt; QFieldSync-&gt; Pakkaa QFieldiä varten</strong>. Oletuskansiona, johon QField-projekti paketoidaan, on käyttäjän kotikansion alla olevan QField-kansion Export-alikansio (Esim. C:\Users\käyttäjänimi\QField\Export). Valitse tai luo tyhjä kansio sopivaan sijaintiin ja paina <strong>Luo</strong> (Create). Prosessin valmistuttua QGISin karttaikkunan ylälaidan palkkiin tulee ilmoitus onnistumisesta ja kansiosijainti, jota klikkaamalla pääsee ko. sijaintiin.</p>
+<p>Voit katsoa esimerkkiä alla olevasta videosta, joka tuotettiin Luonnonvarakeskukselle tuotetussa metsien koealoihin littyneessä QField-PoC-projektissa (vuonna 2024).</p>
+<p><img alt="Pakkaaminen QFieldiin" src="img/package_for_qfield_2.gif" /></p>
+<p>Jos et ole vielä kytkennyt omaa puhelinta tietokoneeseen esimerkiksi usb-kaapelilla, niin tee se. Käy sitten kopioimassa kaikki tiedostot (eli käytännössä em. kansio) jotka äsken loit lisäosan avulla ja siirrä ne puhelimeen sellaiseen sijaintiin, jonka muistat.</p>
+<p><strong>Huom!</strong></p>
+<p>Jos tietokoneella ei pääse näkemään yhtään tiedostoja puhelimella, niin avaa puhelimen näyttö ja salli tarvittaessa yhteyden muodostaminen. Saattaa olla tarpeen myös tarkistaa puhelimen asetuksista, että tiedostojen siirto on sallittu, eikä pelkkä lataus.</p>
+<h3 id="tiedostojen-siirto">Tiedostojen siirto</h3>
+<p>Siirtäminen tapahtuu esimerkiksi raahaamalla edellä luotu tiedostokansio (videossa nimellä testiversio1), tai kopioimalla tiedostoina kuten esimerkissä alla. Suosittelemme että luot uuden kansion jokaiselle projektille, jotta tiedostopolut ovat selkeitä.</p>
+<p><img alt="Tiedostojen siirto puhelimeen" src="img/tiedostojen_siirto.gif" /></p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="1_alkuvalmistelut.html" class="btn btn-neutral float-left" title="1. Alkuvalmistelut"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="3_qfield.html" class="btn btn-neutral float-right" title="3. QFieldin peruskäyttö">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>Tekijä: <a href="info@gispo.fi">Gispo Suomi Oy</a></p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="1_alkuvalmistelut.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="3_qfield.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = ".";</script>
+    <script src="js/theme_extra.js"></script>
+    <script src="js/theme.js"></script>
+      <script src="search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
