@@ -23,6 +23,12 @@
     Nyt valitset äsken puhelimesta kopioidun tiedoston. Nyt kentällä tallentamasi pisteet löytyvät QGISin projektista.
 
     Voit nyt muokata tietoja avaamalla attribuuttitaulukkoa. Voit myös lisätä uusia kohteita ja alueita tarvittaessa.
+    
+<video width="640" height="360" controls>
+
+<source src="img/vienti_spostin_avulla.mp4" type="video/mp4">
+
+</video>
 
 ## Vaihtoehto 2: Projektitiedoston siirto kaapelin avulla
 
