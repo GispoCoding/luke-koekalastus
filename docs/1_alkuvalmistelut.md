@@ -5,7 +5,23 @@
 
 Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
 
--   [QGIS-projekti (viimeisin versio))](https://drive.google.com/file/d/1cVNLXE9XDCynnYMSlPpf3BVzd_OkVdb2/view?usp=sharing)
+-   [QGIS-projekti (viimeisin versio))](https://drive.google.com/uc?export=download&id=1eDXXaWPuvdf8Gh_VLST9cFO6T7tb2N1N) (ZIP-tiedosto --\> Avaa projektitiedoston avulla. Tarkemmat ohjeet dokumentaation kohdassa "[2. Projektin vienti QFieldiin](https://gispocoding.github.io/luke-koekalastus/2_vienti.html)" )
+
+![](img/projektin-avaus.png)
+
+Päivitys 25.4.2025 Muutokset
+
+-   Traficomin Syvyyskartta-lisätty taustakartaksi.
+
+-   Syvyystiedot lisätty havaintopaikan yhteyteen. Oikea syvyystieto tulee automaattisesti tämän listaksen mukaan: <https://github.com/GispoCoding/luke-koekalastus/issues/16>
+
+-   Mahdollista lisätä "pyynti" suoraan havaintopaikan tiedoista:
+
+    ![](img/pyynti-lisays.png){width="236"}
+
+-   Mahdollista lisätä "koekalastusjakso" suoraan "pyynti"-tiedoista:
+
+    ![](img/koekalastusjakso-lisays.png)
 
 Päivitys 16.4.2025 Muutokset:
 
