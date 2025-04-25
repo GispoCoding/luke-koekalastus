@@ -2,7 +2,23 @@
 
 GeoPackage-tiedostoon tallennettu QGIS-projekti avautuu QFieldissa suoriltaan ilman välivaiheita. GeoPackagen voi avata eri tavoilla, ml. lataamalla GeoPackage-tiedoston Android-mobiilipäätteelle, avaamalla tiedoston Google Drive -linkin tai Google Drive -sovelluksen kautta.
 
-## Projektin avaaminen suoran Google Drive linkin avulla (suositeltu)
+## Projektin avaaminen suoran Google Drive linkin avulla (helpoin)
+
+1.  Avaa QField ja valitse *Avaa paikallinen tiedosto*.
+
+2.  Klikkaa oikean alakulman + -painiketta ja valitse *Tuo URL*
+
+3.  Liitä avautuvaan ikkunaan [tämä ZIP-paketin suoraosoite](https://drive.google.com/uc?export=download&id=1eDXXaWPuvdhttps://drive.google.com/uc?export=download&id=1eDXXaWPuvdf8Gh_VLST9cFO6T7tb2N1Nf8Gh_VLST9cFO6T7tb2N1N)
+
+4.  Valitse *"Projektit"*- kohdasta projektitiedosto.
+
+<video width="640" height="360" controls>
+
+<source src="img/tuo_URL-osoitteesta_QField.mp4" type="video/mp4">
+
+</video>
+
+## Projektin avaaminen suoran Google Drive linkin avulla (vaihtoehtoinen)
 
 1.  Lataa [Google drive ZIP-tiedosto](https://drive.google.com/file/d/1eDXXaWPuvdf8Gh_VLST9cFO6T7tb2N1N/view?usp=sharing) puhelimeesi.
 
