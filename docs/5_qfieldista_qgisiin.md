@@ -4,7 +4,7 @@
 
 1.  Avaa projektin valikosta projektihakemisto
 
-![](img/projektihakemisto.png){width="84"}
+![](img/projektihakemisto.png)
 
 2.  Klikkaa *Tietojoukot* -kohdan .gpkg-tiedoston perässä olevaa kolmea pistettä
 
@@ -18,7 +18,7 @@
 
 6.  Avaa alkuperäinen QGIS-projektisi (eli *ei* se mikä löytyi puhelimesta) tietokoneella.
 
-    QFieldSync-lisäosan kautta valitse nyt **Synkronoi QFieldistä** (Synchronize from QField) tai vastaavasti työkalupalkista [![](img/qfieldsync_import.png){width="150"}](#0)
+    QFieldSync-lisäosan kautta valitse nyt **Synkronoi QFieldistä** (Synchronize from QField) tai vastaavasti työkalupalkista [![](img/qfieldsync_import.png)(#0)
 
     Nyt valitset äsken puhelimesta kopioidun tiedoston. Nyt kentällä tallentamasi pisteet löytyvät QGISin projektista.
 
