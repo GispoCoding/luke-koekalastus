@@ -5,7 +5,7 @@
 
 Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
 
--   [QGIS-projekti (viimeisin versio))](https://drive.google.com/uc?export=download&id=1eDXXaWPuvdf8Gh_VLST9cFO6T7tb2N1N) (ZIP-tiedostos. Tarkemmat ohjeet dokumentaation kohdassa "[2. Projektin vienti QFieldiin](https://gispocoding.github.io/luke-koekalastus/2_vienti.html)" )
+-   [QGIS-projekti (viimeisin versio))](https://drive.google.com/uc?export=download&id=1eDXXaWPuvdf8Gh_VLST9cFO6T7tb2N1N) (HUOM! ZIP-tiedosto. Tarkemmat ohjeet dokumentaation kohdassa "[2. Projektin vienti QFieldiin](https://gispocoding.github.io/luke-koekalastus/2_vienti.html)" )
 
 **Päivitys 25.4.2025 Muutokset:**
 
