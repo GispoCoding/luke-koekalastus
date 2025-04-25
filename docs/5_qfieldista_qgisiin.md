@@ -18,11 +18,13 @@
 
 6.  Avaa alkuperäinen QGIS-projektisi (eli *ei* se mikä löytyi puhelimesta) tietokoneella.
 
-    QFieldSync-lisäosan kautta valitse nyt **Synkronoi QFieldistä** (Synchronize from QField) tai vastaavasti työkalupalkista ![](img/qfieldsync_import.png)
+    QFieldSync-lisäosan kautta valitse nyt **Synkronoi QFieldistä** (Synchronize from QField) tai vastaavasti työkalupalkista
 
-    Nyt valitset äsken puhelimesta kopioidun tiedoston. Nyt kentällä tallentamasi pisteet löytyvät QGISin projektista.
+![](img/qfieldsync_import.png)
 
-    Voit nyt muokata tietoja avaamalla attribuuttitaulukkoa. Voit myös lisätä uusia kohteita ja alueita tarvittaessa.
+Nyt valitset äsken puhelimesta kopioidun tiedoston. Nyt kentällä tallentamasi pisteet löytyvät QGISin projektista.
+
+Voit nyt muokata tietoja avaamalla attribuuttitaulukkoa. Voit myös lisätä uusia kohteita ja alueita tarvittaessa.
 
 <video width="640" height="360" controls>
 
