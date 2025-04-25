@@ -39,55 +39,6 @@ GeoPackage-tiedostoon tallennettu QGIS-projekti avautuu QFieldissa suoriltaan il
 
 </video>
 
-## Projektin avaaminen suoraan tiedostosta (ei suositeltu)
-
-Ladattuasi tiedoston Andoid-mobiililaitteelle voit joko klikata GeoPackage-tiedoston auki tiedostonhallinnasta tai avata tiedoston QField-sovelluksen kautta. Tärkeää on, että ladattuasi tiedoston Android-laitteella tiedät, mistä löydät GeoPackage-tiedoston (esim. /Download-kansion sisältä).
-
-Voit painaa Androidissa GeoPackage-tiedostoa ja laitteen pitäisi tunnistaa, että GeoPackage-tiedostotyyppi on yhteensopiva nimenomaan QField-sovelluksen kanssa ja avata se suoraan:
-
-<video width="640" height="360" controls>
-
-<source src="img/qfield_projektin_avaus_tiedostonhallinnasta.mp4" type="video/mp4">
-
-</video>
-
-Saattaa olla, että on helpompi avata projekti QField-sovelluksen kautta osoittaen sovelluksesta, missä projektitiedosto sijaitsee:
-
-<video width="640" height="360" controls>
-
-<source src="img/qfield_projektin_avaus_qfieldin_kautta.mp4" type="video/mp4">
-
-</video>
-
-## Projektin avaaminen Google Drive sähköposti-linkin avaulla (ei suositeltu)
-
-Jos olet saanut Projektitiedoston jakoon Google Drive -kansion kautta, voit avata projektin myös sitä kautta:
-
-1.  Avaa sähköpostisovellus puhelimellasi.
-2.  Avaa sähköpostiisi tullut viesti, jossa ilmoitettaan että sinulle on jaettu kohde
-3.  Paina viestin "Avaa"- painiketta Ensimmäisellä kerralla voi olla että sinulta kysytään varmistuskoodia, joka lähetettään sähköpostiisi. Syötä tämä sähköpostiisi lähetetty varmistuskoodi niin pääset jatkamaan.
-4.  Lataa tiedosto "Lataa"-painikkeeen avulla.
-5.  Kun tiedosto on ladattu, paina "Avaa" ja valitse sovellukseksi QField.
-6.  QField sovellus aukeaa, jossa on projektitiedosto valmiiksi ladattuna.
-
-<video width="640" height="360" controls>
-
-<source src="img/qfield_projektin_avaus_spostista.mp4" type="video/mp4">
-
-</video>
-
-Voit myös hyödyntää Google Drive -sovellusta ja avata tiedoston sitä kautta:
-
-1.  Avaa Google Drive- puhelimellasi
-2.  Klikkaa GeoPackage -tiedostoa, joka on jaettu sinulle. (Yleensä näkyy heti aloitussivulla)
-3.  Valitse sovellukseksi QField.
-4.  QField sovellus aukeaa, jossa on projektitiedosto valmiiksi ladattuna.
-
-<video width="640" height="360" controls>
-
-<source src="img/qfield_projektin_avaus_drivesta.mp4" type="video/mp4">
-
-</video>
 
 ## Projektin pakkaaminen ja vienti QFieldiin QFielSync-QGIS-lisäosan avulla
 
