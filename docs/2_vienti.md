@@ -8,7 +8,7 @@ GeoPackage-tiedostoon tallennettu QGIS-projekti avautuu QFieldissa suoriltaan il
 
 2.  Klikkaa oikean alakulman + -painiketta ja valitse *Tuo URL*
 
-3.  Liitä avautuvaan ikkunaan [tämä ZIP-paketin suoraosoite](https://drive.google.com/uc?export=download&id=1eDXXaWPuvdhttps://drive.google.com/uc?export=download&id=1eDXXaWPuvdf8Gh_VLST9cFO6T7tb2N1Nf8Gh_VLST9cFO6T7tb2N1N)
+3.  Liitä avautuvaan ikkunaan [tämä ZIP-paketin suoraosoite](https://drive.google.com/uc?export=download&id=1eDXXaWPuvdf8Gh_VLST9cFO6T7tb2N1N)
 
 4.  Valitse *"Projektit"*- kohdasta projektitiedosto.
 
