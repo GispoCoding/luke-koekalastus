@@ -11,6 +11,8 @@ Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
 
 -   Traficomin Syvyyskartta-lisätty taustakartaksi.
 
+-   Verkon saaliin oletuskappalemääräksi asetettu 0.
+
 -   Syvyystiedot lisätty havaintopaikan yhteyteen. Oikea syvyystieto tulee automaattisesti tämän listaksen mukaan: <https://github.com/GispoCoding/luke-koekalastus/issues/16>
 
 -   Mahdollista lisätä "pyynti" suoraan havaintopaikan tiedoista:
