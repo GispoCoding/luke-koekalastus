@@ -15,7 +15,7 @@ Päivitys 25.4.2025 Muutokset
 
 -   Mahdollista lisätä "pyynti" suoraan havaintopaikan tiedoista:
 
-    ![](img/pyynti-lisays.png){width="236"}
+    ![](img/pyynti-lisays.png)
 
 -   Mahdollista lisätä "koekalastusjakso" suoraan "pyynti"-tiedoista:
 
