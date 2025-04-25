@@ -12,7 +12,7 @@ GeoPackage-tiedostoon tallennettu QGIS-projekti avautuu QFieldissa suoriltaan il
 
 4.  Etsi juuri ladattu tiedosto. Löytyy yleensä Lataukset/Downloads- kansiosta.
 
-5.  Jos QField löytää vanhan version valitse *"Tuonti ja päällekirjoitus"*
+5.  Jos QField löytää vanhan version, valitse *"Tuonti ja päällekirjoitus"*
 
 6.  Valitse *"Projektit"*- kohdasta projektitiedosto.
 

@@ -13,7 +13,7 @@ Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
 
 -   Verkon saaliin oletuskappalemääräksi asetettu 0.
 
--   Syvyystiedot lisätty havaintopaikan yhteyteen. Oikea syvyystieto tulee automaattisesti tämän listaksen mukaan: <https://github.com/GispoCoding/luke-koekalastus/issues/16>
+-   Syvyystiedot lisätty havaintopaikan yhteyteen. Oikea syvyystieto tulee automaattisesti tämän listaksen mukaan: <https://github.com/GispoCoding/luke-koekalastus/issues/16>. Syvyystietoa voi tarvittaessa vaihtaa alasvetovalikon avulla.
 
 -   Mahdollista lisätä "pyynti" suoraan havaintopaikan tiedoista:
 
