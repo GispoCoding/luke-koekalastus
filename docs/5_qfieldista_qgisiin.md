@@ -16,7 +16,11 @@
 
 5.  Avaa sähköposti ja tallenna tiedosto tietokoneellesi
 
-6.  Avaa alkuperäinen QGIS-projektisi (eli *ei* se mikä löytyi puhelimesta) tietokoneella.
+6.  
+
+    a) Vie tallenettu tiedosto siihen sijaintiin, jossa aiempi tiedostoversio sijaitsi, ja korvaa aiempi tiedostoversio tällä uudelle) **TAI**
+
+    b) Avaa alkuperäinen QGIS-projektisi (eli *ei* se mikä löytyi puhelimesta) tietokoneella.
 
     QFieldSync-lisäosan kautta valitse nyt **Synkronoi QFieldistä** (Synchronize from QField) tai vastaavasti työkalupalkista
 
