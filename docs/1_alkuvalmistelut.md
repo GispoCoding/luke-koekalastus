@@ -23,8 +23,6 @@ Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
 
     ![](img/muistiinpanot.png)
 
--   
-
     **Päivitys 25.4.2025 Muutokset:**
 
 -   Traficomin Syvyyskartta-lisätty taustakartaksi.
