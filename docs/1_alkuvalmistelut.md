@@ -9,7 +9,7 @@ Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
 
     **Päivitys 26.5.2025. Muutokset:**
 
--   Lisätty looput havaintoalueet ja niiden paikat ([Github Issue 24](#0))
+-   Lisätty looput havaintoalueet ja niiden paikat ([Github Issue 24](#0)).
 
 -   Lisätty mahdollisuus lisätä Ympäristöhavaintojen lämpötiloihin desimaalilukuja. Vaihdettu +-painikkeen askeleeksi 0.1
 
@@ -17,7 +17,7 @@ Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
 
 -   Verkon saaliin painon oletuskappelemääräksi asetettu 0.
 
--   Lisätty särkikalaristeymä "särkilahna" havaintolistaan ([Issue 12](https://github.com/GispoCoding/luke-koekalastus/issues/12))
+-   Lisätty särkikalaristeymä "särkilahna" havaintolistaan ([Issue 12](https://github.com/GispoCoding/luke-koekalastus/issues/12)).
 
 -   Lisätty muistiinpanot *verkon_saalis* tauluun:
 
