@@ -15,7 +15,7 @@ Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
 
 -   Muutettu taustakarta *ei valittavissa* -muotoon, niin taustakarttan tiedot eivät vahingossa aukea, kun yrittää valita havaintopaikkaa.
 
--   Verkon saaliin painon oletuskappelemääräksi asetettu 0.
+-   Verkon saaliin painon oletukseksi asetettu 0.
 
 -   Lisätty särkikalaristeymä "särkilahna" havaintolistaan ([Issue 12](https://github.com/GispoCoding/luke-koekalastus/issues/12)).
 
