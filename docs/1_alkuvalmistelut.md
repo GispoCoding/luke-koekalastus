@@ -9,7 +9,7 @@ Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
 
     **Päivitys 26.5.2025. Muutokset:**
 
--   Lisätty kaikki havaintoalueet ja niiden paikat ([Github Issue 24](https://github.com/GispoCoding/luke-koekalastus/issues/24))
+-   Lisätty looput havaintoalueet ja niiden paikat ([Github Issue 24](#0))
 
 -   Lisätty mahdollisuus lisätä Ympäristöhavaintojen lämpötiloihin desimaalilukuja. Vaihdettu +-painikkeen askeleeksi 0.1
 
