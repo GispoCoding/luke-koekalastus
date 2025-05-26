@@ -5,9 +5,27 @@
 
 Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
 
--   [QGIS-projekti (viimeisin versio))](https://drive.google.com/uc?export=download&id=1eDXXaWPuvdf8Gh_VLST9cFO6T7tb2N1N) (HUOM! ZIP-tiedosto. Tarkemmat ohjeet dokumentaation kohdassa "[2. Projektin vienti QFieldiin](https://gispocoding.github.io/luke-koekalastus/2_vienti.html)" )
+-   [QGIS-projekti (viimeisin versio)](https://drive.google.com/uc?export=download&id=1eDXXaWPuvdf8Gh_VLST9cFO6T7tb2N1N)
 
--   **Päivitys 25.4.2025 Muutokset:**
+    **Päivitys 26.5.2025 Muutokset:**
+
+-   Lisätty kaikki havaintoalueet ja niiden paikat ([Github Issue 24](https://github.com/GispoCoding/luke-koekalastus/issues/24))
+
+-   Lisätty mahdollisuus lisätä Ympäristöhavaintojen lämpötiloihin desimaalilukuja. Vaihdettu askelpainikkeen, askeleeksi 0.1
+
+-   Muutettu taustakarta non-identifiable-muotoon, niin taustakarttan tiedot eivät vahingossa aukea, kun yrittää valita havaintopaikkaa.
+
+-   Verkon painon oletuskappelemääräksi asetettu 0.
+
+-   Listty särkikalaristeymä "särkilahna" havaintolistaan ([Issue 12](https://github.com/GispoCoding/luke-koekalastus/issues/12))
+
+-   Lisätty muistiinpanot *verkon_saalis* tauluun:
+
+    ![](img/muistiinpanot.png){width="268"}
+
+-   
+
+    **Päivitys 25.4.2025 Muutokset:**
 
 -   Traficomin Syvyyskartta-lisätty taustakartaksi.
 
