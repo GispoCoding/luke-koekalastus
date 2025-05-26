@@ -21,7 +21,7 @@ Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
 
 -   Lisätty muistiinpanot *verkon_saalis* tauluun:
 
-    ![](img/muistiinpanot.png){width="268"}
+    ![](img/muistiinpanot.png)
 
 -   
 
