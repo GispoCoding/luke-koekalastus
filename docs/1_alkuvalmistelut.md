@@ -11,7 +11,7 @@ Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
 
 -   Lisätty kaikki havaintoalueet ja niiden paikat ([Github Issue 24](https://github.com/GispoCoding/luke-koekalastus/issues/24))
 
--   Lisätty mahdollisuus lisätä Ympäristöhavaintojen lämpötiloihin desimaalilukuja. Vaihdettu askelpainikkeen askeleeksi 0.1
+-   Lisätty mahdollisuus lisätä Ympäristöhavaintojen lämpötiloihin desimaalilukuja. Vaihdettu +-painikkeen askeleeksi 0.1
 
 -   Muutettu taustakarta non-identifiable-muotoon, niin taustakarttan tiedot eivät vahingossa aukea, kun yrittää valita havaintopaikkaa.
 
