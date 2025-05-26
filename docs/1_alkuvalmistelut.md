@@ -13,7 +13,7 @@ Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
 
 -   Lisätty mahdollisuus lisätä Ympäristöhavaintojen lämpötiloihin desimaalilukuja. Vaihdettu +-painikkeen askeleeksi 0.1
 
--   Muutettu taustakarta non-identifiable-muotoon, niin taustakarttan tiedot eivät vahingossa aukea, kun yrittää valita havaintopaikkaa.
+-   Muutettu taustakarta *ei valittavissa* -muotoon, niin taustakarttan tiedot eivät vahingossa aukea, kun yrittää valita havaintopaikkaa.
 
 -   Verkon painon oletuskappelemääräksi asetettu 0.
 
