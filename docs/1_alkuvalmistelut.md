@@ -7,7 +7,7 @@ Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
 
 -   [QGIS-projekti (viimeisin versio)](https://drive.google.com/uc?export=download&id=1eDXXaWPuvdf8Gh_VLST9cFO6T7tb2N1N)
 
-    **Päivitys 26.5.2025 Muutokset:**
+    **Päivitys 26.5.2025 muutokset:**
 
 -   Lisätty kaikki havaintoalueet ja niiden paikat ([Github Issue 24](https://github.com/GispoCoding/luke-koekalastus/issues/24))
 
