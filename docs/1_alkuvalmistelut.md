@@ -7,6 +7,14 @@ Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
 
 -   [QGIS-projekti (viimeisin versio)](https://drive.google.com/uc?export=download&id=1eDXXaWPuvdf8Gh_VLST9cFO6T7tb2N1N)
 
+    **Päivitys 13.6.2025. Muutokset**
+
+-   Taustakartat ladattun nyt offline-tilaan. Tällöin taustakartat latautuvat myös ilman internet-yhteyttä.
+
+-   Kalastuksen keston maksimiarvo muutettu 12 tunnista 999h tuntiin.
+
+-   Pituusjakaumien syötön kaikkien arvojen (1-150cm) oletukseksi vaihdettu 0.
+
     **Päivitys 26.5.2025. Muutokset:**
 
 -   Lisätty looput havaintoalueet ja niiden paikat ([Github Issue 24](#0)).

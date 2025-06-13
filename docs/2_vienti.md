@@ -8,8 +8,7 @@ GeoPackage-tiedostoon tallennettu QGIS-projekti avautuu QFieldissa suoriltaan il
 
 2.  Klikkaa oikean alakulman + -painiketta ja valitse *Tuo URL*
 
-3.  Liitä avautuvaan ikkunaan tämä ZIP-paketin suoraosoite:
-    <https://drive.google.com/uc?export=download&id=1eDXXaWPuvdf8Gh_VLST9cFO6T7tb2N1N>
+3.  Liitä avautuvaan ikkunaan tämä ZIP-paketin suoraosoite: <https://drive.google.com/uc?export=download&id=1eDXXaWPuvdf8Gh_VLST9cFO6T7tb2N1N>
 
 4.  Valitse *"Projektit"*- kohdasta projektitiedosto.
 
@@ -38,7 +37,6 @@ GeoPackage-tiedostoon tallennettu QGIS-projekti avautuu QFieldissa suoriltaan il
 <source src="img/projektin_avaus.mp4" type="video/mp4">
 
 </video>
-
 
 ## Projektin pakkaaminen ja vienti QFieldiin QFielSync-QGIS-lisäosan avulla
 
