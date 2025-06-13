@@ -13,11 +13,11 @@ Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
 
 -   Kalastuksen keston maksimiarvo muutettu 12 tunnista 999h tuntiin.
 
--   Pituusjakaumien syötön kaikkien arvojen (1-150cm) oletukseksi vaihdettu 0.
+-   Pituusjakaumien syötön kaikkien arvojen (1-150cm) oletukseksi asetettu 0.
 
     **Päivitys 26.5.2025. Muutokset:**
 
--   Lisätty looput havaintoalueet ja niiden paikat ([Github Issue 24](#0)).
+-   Lisätty loput havaintoalueet ja niiden paikat ([Github Issue 24](#0)).
 
 -   Lisätty mahdollisuus lisätä Ympäristöhavaintojen lämpötiloihin desimaalilukuja. Vaihdettu +-painikkeen askeleeksi 0.1
 
