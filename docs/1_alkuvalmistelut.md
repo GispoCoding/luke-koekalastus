@@ -9,7 +9,7 @@ Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
 
     **Päivitys 13.6.2025. Muutokset**
 
--   Taustakartat ladattun nyt offline-tilaan. Tällöin taustakartat latautuvat myös ilman internet-yhteyttä.
+-   Taustakartat ladattu nyt offline-tilaan. Tällöin taustakartat latautuvat myös ilman internet-yhteyttä.
 
 -   Kalastuksen keston maksimiarvo muutettu 12 tunnista 999h tuntiin.
 
