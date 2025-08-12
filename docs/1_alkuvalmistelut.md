@@ -9,6 +9,26 @@ Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
 
     **Päivitys 13.6.2025. Muutokset**
 
+-   Mahdollisuus syöttää yli 100 yksilön lukumääriä verkon_saalis tauluun. Maksimiarvoksi asetettu 9999.
+
+-   Yläpalkin värikoodit verkon saalista syötettäessä seuraavanlaiseksi: punainen, kun
+
+    joku tiedoista solmuväli, laji, määrä ja paino puuttuu, oranssi, kune m. tiedot on
+
+    syötetty, ja vihreä, kun laskettu määrä ja syötettyjen pituuksien määrä täsmäävät.
+
+-   Kun pituusjakaumia tallennettaessa laskettujen lukumäärä saavutetaan hyppäys otettu pois
+
+-   Kokoluokat muutettu seuraavasti: 1-7 cm, 8-35 cm, 36-80 cm ja 81-150 cm.
+
+-   Kaikilla lajeilla oletus kokoluokka 8-35 cm.
+
+-   Ympäristöhavaintojen kellonaika muutettu vastaamaan Suomen aikavyöhykettä
+
+-   Sekunnit otettu pois ajansyötöstä ympäristöhavainnoille
+
+-   **Päivitys 13.6.2025. Muutokset**
+
 -   Taustakartat ladattu nyt offline-tilaan. Tällöin taustakartat latautuvat myös ilman internet-yhteyttä.
 
 -   Kalastuksen keston maksimiarvo muutettu 12 tunnista 999h tuntiin.

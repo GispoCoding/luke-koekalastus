@@ -18,9 +18,9 @@
 
 6.  
 
-    a) Vie tallenettu tiedosto siihen sijaintiin, jossa aiempi tiedostoversio sijaitsi, ja korvaa aiempi tiedostoversio tällä uudelle) **TAI**
+    a)  Vie tallenettu tiedosto siihen sijaintiin, jossa aiempi tiedostoversio sijaitsi, ja korvaa aiempi tiedostoversio tällä uudelle) **TAI**
 
-    b) Avaa alkuperäinen QGIS-projektisi (eli *ei* se mikä löytyi puhelimesta) tietokoneella.
+    b)  Avaa alkuperäinen QGIS-projektisi (eli *ei* se mikä löytyi puhelimesta) tietokoneella.
 
     QFieldSync-lisäosan kautta valitse nyt **Synkronoi QFieldistä** (Synchronize from QField) tai vastaavasti työkalupalkista
 
