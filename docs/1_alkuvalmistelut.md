@@ -7,7 +7,7 @@ Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
 
 -   [QGIS-projekti (viimeisin versio)](https://drive.google.com/uc?export=download&id=1eDXXaWPuvdf8Gh_VLST9cFO6T7tb2N1N)
 
-    **Päivitys 13.6.2025. Muutokset**
+    **Päivitys 12.8.2025. Muutokset**
 
 -   Mahdollisuus syöttää yli 100 yksilön lukumääriä verkon_saalis tauluun. Maksimiarvoksi asetettu 9999.
 
@@ -26,6 +26,7 @@ Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
 -   Ympäristöhavaintojen kellonaika muutettu vastaamaan Suomen aikavyöhykettä
 
 -   Sekunnit otettu pois ajansyötöstä ympäristöhavainnoille
+
 
 -   **Päivitys 13.6.2025. Muutokset**
 
