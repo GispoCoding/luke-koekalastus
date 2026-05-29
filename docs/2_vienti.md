@@ -20,17 +20,18 @@ GeoPackage-tiedostoon tallennettu QGIS-projekti avautuu QFieldissa suoriltaan il
 
 ## Projektin avaaminen QFieldin *Tuo projekti ZIP-tiedostosta* toiminnolla (vaihtoehtoinen)
 
-1.  Lataa [Google drive ZIP-tiedosto](https://drive.google.com/file/d/1eDXXaWPuvdf8Gh_VLST9cFO6T7tb2N1N/view?usp=sharing) puhelimeesi.
+1.  Lataa a) tämä versio, jossa ei ole syvyysvektoreita (tiedostokoko 19 202kt) [Google drive ZIP-tiedosto](https://drive.google.com/file/d/1FpZehMwWd-6krNA_VSEnOMIexcDAY_K9/view?usp=sharing)
+          b) tämä versio, jossa on syvyysvektorit mukana (tiedostokoko 683 652 kt)  [Google drive ZIP-tiedosto](https://drive.google.com/file/d/1rDSJwwboqMHTCWeHbSAWyGXiZet7eguv/view?usp=drive_link) puhelimeesi.
 
-2.  Avaa QField ja valitse *Avaa paikallinen tiedosto*.
+3.  Avaa QField ja valitse *Avaa paikallinen tiedosto*.
 
-3.  Klikkaa oikean alakulman + -painiketta ja valitse *"Tuo projekti ZIP-tiedostosta"*
+4.  Klikkaa oikean alakulman + -painiketta ja valitse *"Tuo projekti ZIP-tiedostosta"*
 
-4.  Etsi juuri ladattu tiedosto. Löytyy yleensä Lataukset/Downloads- kansiosta.
+5.  Etsi juuri ladattu tiedosto. Löytyy yleensä Lataukset/Downloads- kansiosta.
 
-5.  Jos QField löytää vanhan version, valitse *"Tuonti ja päällekirjoitus"*
+6.  Jos QField löytää vanhan version, valitse *"Tuonti ja päällekirjoitus"*
 
-6.  Valitse *"Projektit"*- kohdasta projektitiedosto.
+7.  Valitse *"Projektit"*- kohdasta projektitiedosto.
 
 <video width="640" height="360" controls>
 
