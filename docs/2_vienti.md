@@ -20,8 +20,9 @@ GeoPackage-tiedostoon tallennettu QGIS-projekti avautuu QFieldissa suoriltaan il
 
 ## Projektin avaaminen QFieldin *Tuo projekti ZIP-tiedostosta* toiminnolla (vaihtoehtoinen)
 
-1.  Lataa a) tämä versio, jossa ei ole syvyysvektoreita (tiedostokoko 19 202kt) [Google drive ZIP-tiedosto](https://drive.google.com/file/d/1FpZehMwWd-6krNA_VSEnOMIexcDAY_K9/view?usp=sharing)
-          b) tämä versio, jossa on syvyysvektorit mukana (tiedostokoko 683 652 kt)  [Google drive ZIP-tiedosto](https://drive.google.com/file/d/1rDSJwwboqMHTCWeHbSAWyGXiZet7eguv/view?usp=drive_link) puhelimeesi.
+1.  Lataa
+   a) tämä versio, jossa ei ole syvyysvektoreita (tiedostokoko 19 202kt) [Google drive ZIP-tiedosto](https://drive.google.com/file/d/1FpZehMwWd-6krNA_VSEnOMIexcDAY_K9/view?usp=sharing)
+   b) tämä versio, jossa on syvyysvektorit mukana (tiedostokoko 683 652 kt)  [Google drive ZIP-tiedosto](https://drive.google.com/file/d/1rDSJwwboqMHTCWeHbSAWyGXiZet7eguv/view?usp=drive_link) puhelimeesi.
 
 3.  Avaa QField ja valitse *Avaa paikallinen tiedosto*.
 
