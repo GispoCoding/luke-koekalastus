@@ -14,23 +14,14 @@ Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
 - Yleiset:
 
   - Päiväkohtainen saaliiden yhteenveto lomakkeen tuotu Havaintopaikka-tasolle QML kaaviona. 
-
   - Raskaat virtuaalikentät poistettu ja tämän myötä *Viimeisimmät kalastustapahtumat* -välilehti on poistettu
-
   - Relaationäkymänä nyt: 5 Ympäristöhavaintoa aiemman neljän sijaan (Nordic & Coastal)
-
   - Havaintopaikka listauksen välkkymisen ja kaatuilun korjattu. 
-
   - Visuaalinen tarkistus pituuskentille:
-
     - Pituusjakauman summasarakkeisiin on lisäty väri-ilmaisin: sarake näkyy punaisena, jos pituusjakauman summa ja ilmoitettu kokonaismäärä eivät täsmää, ja vihreänä, kun luvut ovat tasan.
-
   - Tilastojen laskenta pyynnöstä:
-
     - Tilastot-osion taustalaskenta ei pyöri enää automaattisesti muistin kuormittamiseksi, vaan laskenta käynnistetään *Tilastot*-välilehdeltä painikkeella "Haluatko laskea tilastot?".
-
   - Tyhjä verkko kenttä vaihdettu päälomakkeelle eli Nordic-kalastuksissa "Verkkopaikka"-tasolle ja Coastal-kalastuksissa "Kalastus"-tasolle. 
-
     - Kenttä poistuu näkyvistä, kun vähintään yksi verkon saalis syötetty. Jos Verkko merkitään tyhjäksi tulee pehmeä ehto/huomautus että selite on annettava.
 
 - Coastal:
