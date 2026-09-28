@@ -11,7 +11,7 @@ Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
 
   **Muutokset:**
 
-- Yleiset:
+Yleiset:
   - Päiväkohtainen saaliiden yhteenveto lomakkeen tuotu Havaintopaikka-tasolle QML kaaviona. 
   - Raskaat virtuaalikentät poistettu ja tämän myötä *Viimeisimmät kalastustapahtumat* -välilehti on poistettu
   - Relaationäkymänä nyt: 5 Ympäristöhavaintoa aiemman neljän sijaan (Nordic & Coastal)
@@ -23,14 +23,14 @@ Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
   - Tyhjä verkko kenttä vaihdettu päälomakkeelle eli Nordic-kalastuksissa "Verkkopaikka"-tasolle ja Coastal-kalastuksissa "Kalastus"-tasolle. 
     - Kenttä poistuu näkyvistä, kun vähintään yksi verkon saalis syötetty. Jos Verkko merkitään tyhjäksi tulee pehmeä ehto/huomautus että selite on annettava.
 
-- Coastal:
+Coastal:
     - Pyynti taulu ja pyyntitiedot otettu pois kokonaan projektista palautteenne perusteella.
     - kalstuksiin viimeisimmän saaliin yhteenveto havaintopaikan näyttönimeksi. Tässä lyhyt video toiminnosta ([linkki](https://drive.google.com/file/d/1VZyIakRGD9rNYZQdzCUtCN3ay00FRAxn/view?usp=drive_link))
     - Havaintopaikan relaatiooonäkyvyydeksi vaihdettu 30 kohdetta 
     - Kalastus tasolla näkyy 15 viimeisintä saalista (Coastal)
     - Suolapitoisuus kentän tyyppi vaihdettu kokonaisluvusta desimaaliluvuksi desimaaliluvut
 
-- Nordic:
+Nordic:
     - Verkkopaikka tasolla näkyy nyt 15 viimeisintä saalista (Nordic)
     - Kalastus tasolla näkyy 15 verkkopaikkaa (Nordic)
     - Verkon saalis lomakkeella näkyy mikä havaintopaikka ja syvyys (Coastal) tai Verkkotunnustieto (Nordic) ([kuva](https://drive.google.com/file/d/1NDpzC0bIeKYbcSxEQ0Bhmm2tSqETvCBb/view?usp=drive_link))
