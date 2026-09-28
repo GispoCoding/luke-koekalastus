@@ -7,37 +7,41 @@ Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
 
 - [QGIS-projekti (viimeisin versio)](https://drive.google.com/uc?export=download&id=1QlG7vPjFnArE9oGc0RTJwcElKez63PT-) (Pyydä tarvittaessa tallennusoikeutta)
 
-  **Päivitys 28.9.2026.** *(HUOM! Versio on tyhjä versio, jossa ei ole aiemmin tallennettua dataa)*
+#### **Päivitys 28.9.2026.**
 
-  **Muutokset:**
+*(HUOM! Versio on tyhjä versio, jossa ei ole aiemmin tallennettua dataa)*
+
+**Muutokset:**
 
 Yleiset:
-  - Päiväkohtainen saaliiden yhteenveto lomakkeen tuotu Havaintopaikka-tasolle QML kaaviona. 
-  - Raskaat virtuaalikentät poistettu ja tämän myötä *Viimeisimmät kalastustapahtumat* -välilehti on poistettu
-  - Relaationäkymänä nyt: 5 Ympäristöhavaintoa aiemman neljän sijaan (Nordic & Coastal)
-  - Havaintopaikka listauksen välkkymisen ja kaatuilun korjattu. 
-  - Visuaalinen tarkistus pituuskentille:
+
+- Päiväkohtainen saaliiden yhteenveto lomakkeen tuotu Havaintopaikka-tasolle QML kaaviona.
+- Raskaat virtuaalikentät poistettu ja tämän myötä *Viimeisimmät kalastustapahtumat* -välilehti on poistettu
+- Relaationäkymänä nyt: 5 Ympäristöhavaintoa aiemman neljän sijaan (Nordic & Coastal)
+- Havaintopaikka listauksen välkkymisen ja kaatuilun korjattu.
+- Suorityskykyä paranneltu vielä useissa kenttälomakkeissa
+- Verkon saalis lomakkeella näkyy mikä havaintopaikka ja syvyys (Coastal) tai Verkkotunnustieto (Nordic) ([kuva](https://drive.google.com/file/d/1NDpzC0bIeKYbcSxEQ0Bhmm2tSqETvCBb/view?usp=drive_link))
+- Visuaalinen tarkistus pituuskentille:
     - Pituusjakauman summasarakkeisiin on lisäty väri-ilmaisin: sarake näkyy punaisena, jos pituusjakauman summa ja ilmoitettu kokonaismäärä eivät täsmää, ja vihreänä, kun luvut ovat tasan.
-  - Tilastojen laskenta pyynnöstä:
+- Tilastojen laskenta pyynnöstä:
     - Tilastot-osion taustalaskenta ei pyöri enää automaattisesti muistin kuormittamiseksi, vaan laskenta käynnistetään *Tilastot*-välilehdeltä painikkeella "Haluatko laskea tilastot?".
-  - Tyhjä verkko kenttä vaihdettu päälomakkeelle eli Nordic-kalastuksissa "Verkkopaikka"-tasolle ja Coastal-kalastuksissa "Kalastus"-tasolle. 
-    - Kenttä poistuu näkyvistä, kun vähintään yksi verkon saalis syötetty. Jos Verkko merkitään tyhjäksi tulee pehmeä ehto/huomautus että selite on annettava.
+- Tyhjä verkko kenttä vaihdettu päälomakkeelle eli Nordic-kalastuksissa "Verkkopaikka"-tasolle ja Coastal-kalastuksissa "Kalastus"-tasolle.
+  - Kenttä poistuu näkyvistä, kun vähintään yksi verkon saalis syötetty. Jos Verkko merkitään tyhjäksi tulee pehmeä ehto/huomautus että selite on annettava.
 
 Coastal:
-    - Pyynti taulu ja pyyntitiedot otettu pois kokonaan projektista palautteenne perusteella.
-    - kalstuksiin viimeisimmän saaliin yhteenveto havaintopaikan näyttönimeksi. Tässä lyhyt video toiminnosta ([linkki](https://drive.google.com/file/d/1VZyIakRGD9rNYZQdzCUtCN3ay00FRAxn/view?usp=drive_link))
-    - Havaintopaikan relaatiooonäkyvyydeksi vaihdettu 30 kohdetta 
-    - Kalastus tasolla näkyy 15 viimeisintä saalista (Coastal)
-    - Suolapitoisuus kentän tyyppi vaihdettu kokonaisluvusta desimaaliluvuksi desimaaliluvut
+
+- Pyynti taulu ja pyyntitiedot otettu pois kokonaan projektista palautteenne perusteella.
+- Kalastus taulun viimeisimmän saaliin yhteenveto havaintopaikan näyttönimeksi. Tässä lyhyt video toiminnosta ([linkki](https://drive.google.com/file/d/1VZyIakRGD9rNYZQdzCUtCN3ay00FRAxn/view?usp=drive_link))
+- Havaintopaikan relaatiooonäkyvyydeksi vaihdettu 30 kohdetta
+- Kalastus tasolla näkyy 15 viimeisintä saalista (Coastal) - Suolapitoisuus kentän tyyppi vaihdettu kokonaisluvusta desimaaliluvuksi desimaaliluvut
 
 Nordic:
-    - Verkkopaikka tasolla näkyy nyt 15 viimeisintä saalista (Nordic)
-    - Kalastus tasolla näkyy 15 verkkopaikkaa (Nordic)
-    - Verkon saalis lomakkeella näkyy mikä havaintopaikka ja syvyys (Coastal) tai Verkkotunnustieto (Nordic) ([kuva](https://drive.google.com/file/d/1NDpzC0bIeKYbcSxEQ0Bhmm2tSqETvCBb/view?usp=drive_link))
 
-- Suorityskykyä paranneltu vielä useissa kenttälomakkeissa
+- Verkkopaikka tasolla näkyy nyt 15 viimeisintä saalista (Nordic)
 
-  **Päivitys 12.8.2025. Muutokset**
+- Kalastus tasolla näkyy 15 verkkopaikkaa (Nordic)
+
+#### **Päivitys 12.8.2025. Muutokset:**
 
 - Mahdollisuus syöttää yli 100 yksilön lukumääriä verkon_saalis tauluun. Maksimiarvoksi asetettu 9999.
 
@@ -57,7 +61,7 @@ Nordic:
 
 - Sekunnit otettu pois ajansyötöstä ympäristöhavainnoille
 
-- **Päivitys 13.6.2025. Muutokset**
+  #### **Päivitys 13.6.2025. Muutokset:**
 
 - Taustakartat ladattu nyt offline-tilaan. Tällöin taustakartat latautuvat myös ilman internet-yhteyttä.
 
@@ -65,7 +69,7 @@ Nordic:
 
 - Pituusjakaumien syötön kaikkien arvojen (1-150cm) oletukseksi asetettu 0.
 
-  **Päivitys 26.5.2025. Muutokset:**
+  #### **Päivitys 26.5.2025. Muutokset:**
 
 - Lisätty loput havaintoalueet ja niiden paikat ([Github Issue 24](#0)).
 
@@ -81,7 +85,7 @@ Nordic:
 
   ![](img/muistiinpanot.png)
 
-  **Päivitys 25.4.2025 Muutokset:**
+  #### **Päivitys 25.4.2025 Muutokset:**
 
 - Traficomin Syvyyskartta-lisätty taustakartaksi.
 
@@ -97,7 +101,7 @@ Nordic:
 
   ![](img/koekalastusjakso-lisays.png)
 
-**Päivitys 16.4.2025 Muutokset:**
+#### **Päivitys 16.4.2025 Muutokset:**
 
 - Kalalajilistaus päivitetty saalismäärien mukaan, jos saalismäärätietoa ei ole saatavilla järjestyy aakkosjärjestyksen perusteella
 
