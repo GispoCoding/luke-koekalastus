@@ -1,79 +1,126 @@
 # Ennakkovalmistelut
 
--   Asenna itsellesi tietokoneelle [QGISin viimeisin vakaa versio (LTR)](https://qgis.org/fi/site/forusers/download.html).
--   Asenna mobiililaitteellesi [QField-sovellus sovelluskaupastasi](https://qfield.org/).
+- Asenna itsellesi tietokoneelle [QGISin viimeisin vakaa versio (LTR)](https://qgis.org/fi/site/forusers/download.html).
+- Asenna mobiililaitteellesi [QField-sovellus sovelluskaupastasi](https://qfield.org/).
 
 Lataa GeoPackage-tiedosto, joka sisältää projektitiedoston:
 
--   [QGIS-projekti (viimeisin versio)](https://drive.google.com/uc?export=download&id=1eDXXaWPuvdf8Gh_VLST9cFO6T7tb2N1N)
+- [QGIS-projekti (viimeisin versio)](https://drive.google.com/uc?export=download&id=1QlG7vPjFnArE9oGc0RTJwcElKez63PT-) (Pyydä tarvittaessa tallennusoikeutta)
 
-    **Päivitys 12.8.2025. Muutokset**
+  **Päivitys 28.9.2026.** *(HUOM! Versio on tyhjä versio, jossa ei ole aiemmin tallennettua dataa)*
 
--   Mahdollisuus syöttää yli 100 yksilön lukumääriä verkon_saalis tauluun. Maksimiarvoksi asetettu 9999.
+  **Muutokset:**
 
--   Yläpalkin värikoodit verkon saalista syötettäessä seuraavanlaiseksi: punainen, kun
+- Yleiset:
 
-    joku tiedoista solmuväli, laji, määrä ja paino puuttuu, oranssi, kune m. tiedot on
+  - Päiväkohtainen saaliiden yhteenveto lomakkeen tuotu Havaintopaikka-tasolle QML kaaviona. 
 
-    syötetty, ja vihreä, kun laskettu määrä ja syötettyjen pituuksien määrä täsmäävät.
+  - Raskaat virtuaalikentät poistettu ja tämän myötä *Viimeisimmät kalastustapahtumat* -välilehti on poistettu
 
--   Kun pituusjakaumia tallennettaessa laskettujen lukumäärä saavutetaan hyppäys otettu pois
+  - Relaationäkymänä nyt: 5 Ympäristöhavaintoa aiemman neljän sijaan (Nordic & Coastal)
 
--   Kokoluokat muutettu seuraavasti: 1-7 cm, 8-35 cm, 36-80 cm ja 81-150 cm.
+  - Havaintopaikka listauksen välkkymisen ja kaatuilun korjattu. 
 
--   Kaikilla lajeilla oletus kokoluokka 8-35 cm.
+  - Visuaalinen tarkistus pituuskentille:
 
--   Ympäristöhavaintojen kellonaika muutettu vastaamaan Suomen aikavyöhykettä
+    - Pituusjakauman summasarakkeisiin on lisäty väri-ilmaisin: sarake näkyy punaisena, jos pituusjakauman summa ja ilmoitettu kokonaismäärä eivät täsmää, ja vihreänä, kun luvut ovat tasan.
 
--   Sekunnit otettu pois ajansyötöstä ympäristöhavainnoille
+  - Tilastojen laskenta pyynnöstä:
 
+    - Tilastot-osion taustalaskenta ei pyöri enää automaattisesti muistin kuormittamiseksi, vaan laskenta käynnistetään *Tilastot*-välilehdeltä painikkeella "Haluatko laskea tilastot?".
 
--   **Päivitys 13.6.2025. Muutokset**
+  - Tyhjä verkko kenttä vaihdettu päälomakkeelle eli Nordic-kalastuksissa "Verkkopaikka"-tasolle ja Coastal-kalastuksissa "Kalastus"-tasolle. 
 
--   Taustakartat ladattu nyt offline-tilaan. Tällöin taustakartat latautuvat myös ilman internet-yhteyttä.
+    - Kenttä poistuu näkyvistä, kun vähintään yksi verkon saalis syötetty. Jos Verkko merkitään tyhjäksi tulee pehmeä ehto/huomautus että selite on annettava.
 
--   Kalastuksen keston maksimiarvo muutettu 12 tunnista 999h tuntiin.
+- Coastal:
 
--   Pituusjakaumien syötön kaikkien arvojen (1-150cm) oletukseksi asetettu 0.
+  - Pyynti taulu ja pyyntitiedot otettu pois kokonaan projektista palautteenne perusteella.
 
-    **Päivitys 26.5.2025. Muutokset:**
+  - kalstuksiin viimeisimmän saaliin yhteenveto havaintopaikan näyttönimeksi. Tässä lyhyt video toiminnosta ([linkki](https://drive.google.com/file/d/1VZyIakRGD9rNYZQdzCUtCN3ay00FRAxn/view?usp=drive_link))
 
--   Lisätty loput havaintoalueet ja niiden paikat ([Github Issue 24](#0)).
+  - Havaintopaikan relaatiooonäkyvyydeksi vaihdettu 30 kohdetta 
 
--   Lisätty mahdollisuus lisätä Ympäristöhavaintojen lämpötiloihin desimaalilukuja. Vaihdettu +-painikkeen askeleeksi 0.1
+  - Kalastus tasolla näkyy 15 viimeisintä saalista (Coastal)
 
--   Muutettu taustakarta *ei valittavissa* -muotoon, niin taustakarttan tiedot eivät vahingossa aukea, kun yrittää valita havaintopaikkaa.
+  - Suolapitoisuus kentän tyyppi vaihdettu kokonaisluvusta desimaaliluvuksi desimaaliluvut
 
--   Verkon saaliin painon oletukseksi asetettu 0.
+- Nordic:
 
--   Lisätty särkikalaristeymä "särkilahna" havaintolistaan ([Issue 12](https://github.com/GispoCoding/luke-koekalastus/issues/12)).
+  - Verkkopaikka tasolla näkyy nyt 15 viimeisintä saalista (Nordic)
 
--   Lisätty muistiinpanot *verkon_saalis* tauluun:
+  - Kalastus tasolla näkyy 15 verkkopaikkaa (Nordic)
 
-    ![](img/muistiinpanot.png)
+  - Verkon saalis lomakkeella näkyy mikä havaintopaikka ja syvyys (Coastal) tai Verkkotunnustieto (Nordic) ([kuva](https://drive.google.com/file/d/1NDpzC0bIeKYbcSxEQ0Bhmm2tSqETvCBb/view?usp=drive_link))
 
-    **Päivitys 25.4.2025 Muutokset:**
+- Suorityskykyä paranneltu vielä useissa kenttälomakkeissa
 
--   Traficomin Syvyyskartta-lisätty taustakartaksi.
+  **Päivitys 12.8.2025. Muutokset**
 
--   Verkon saaliin oletuskappalemääräksi asetettu 0.
+- Mahdollisuus syöttää yli 100 yksilön lukumääriä verkon_saalis tauluun. Maksimiarvoksi asetettu 9999.
 
--   Syvyystiedot lisätty havaintopaikan yhteyteen. Oikea syvyystieto tulee automaattisesti tämän listaksen mukaan: <https://github.com/GispoCoding/luke-koekalastus/issues/16>. Syvyystietoa voi tarvittaessa vaihtaa alasvetovalikon avulla.
+- Yläpalkin värikoodit verkon saalista syötettäessä seuraavanlaiseksi: punainen, kun
 
--   Mahdollista lisätä "pyynti" suoraan havaintopaikan tiedoista:
+  joku tiedoista solmuväli, laji, määrä ja paino puuttuu, oranssi, kune m. tiedot on
 
-    ![](img/pyynti-lisays.png)
+  syötetty, ja vihreä, kun laskettu määrä ja syötettyjen pituuksien määrä täsmäävät.
 
--   Mahdollista lisätä "koekalastusjakso" suoraan "pyynti"-tiedoista:
+- Kun pituusjakaumia tallennettaessa laskettujen lukumäärä saavutetaan hyppäys otettu pois
 
-    ![](img/koekalastusjakso-lisays.png)
+- Kokoluokat muutettu seuraavasti: 1-7 cm, 8-35 cm, 36-80 cm ja 81-150 cm.
+
+- Kaikilla lajeilla oletus kokoluokka 8-35 cm.
+
+- Ympäristöhavaintojen kellonaika muutettu vastaamaan Suomen aikavyöhykettä
+
+- Sekunnit otettu pois ajansyötöstä ympäristöhavainnoille
+
+- **Päivitys 13.6.2025. Muutokset**
+
+- Taustakartat ladattu nyt offline-tilaan. Tällöin taustakartat latautuvat myös ilman internet-yhteyttä.
+
+- Kalastuksen keston maksimiarvo muutettu 12 tunnista 999h tuntiin.
+
+- Pituusjakaumien syötön kaikkien arvojen (1-150cm) oletukseksi asetettu 0.
+
+  **Päivitys 26.5.2025. Muutokset:**
+
+- Lisätty loput havaintoalueet ja niiden paikat ([Github Issue 24](#0)).
+
+- Lisätty mahdollisuus lisätä Ympäristöhavaintojen lämpötiloihin desimaalilukuja. Vaihdettu +-painikkeen askeleeksi 0.1
+
+- Muutettu taustakarta *ei valittavissa* -muotoon, niin taustakarttan tiedot eivät vahingossa aukea, kun yrittää valita havaintopaikkaa.
+
+- Verkon saaliin painon oletukseksi asetettu 0.
+
+- Lisätty särkikalaristeymä "särkilahna" havaintolistaan ([Issue 12](https://github.com/GispoCoding/luke-koekalastus/issues/12)).
+
+- Lisätty muistiinpanot *verkon_saalis* tauluun:
+
+  ![](img/muistiinpanot.png)
+
+  **Päivitys 25.4.2025 Muutokset:**
+
+- Traficomin Syvyyskartta-lisätty taustakartaksi.
+
+- Verkon saaliin oletuskappalemääräksi asetettu 0.
+
+- Syvyystiedot lisätty havaintopaikan yhteyteen. Oikea syvyystieto tulee automaattisesti tämän listaksen mukaan: <https://github.com/GispoCoding/luke-koekalastus/issues/16>. Syvyystietoa voi tarvittaessa vaihtaa alasvetovalikon avulla.
+
+- Mahdollista lisätä "pyynti" suoraan havaintopaikan tiedoista:
+
+  ![](img/pyynti-lisays.png)
+
+- Mahdollista lisätä "koekalastusjakso" suoraan "pyynti"-tiedoista:
+
+  ![](img/koekalastusjakso-lisays.png)
 
 **Päivitys 16.4.2025 Muutokset:**
 
--   Kalalajilistaus päivitetty saalismäärien mukaan, jos saalismäärätietoa ei ole saatavilla järjestyy aakkosjärjestyksen perusteella
+- Kalalajilistaus päivitetty saalismäärien mukaan, jos saalismäärätietoa ei ole saatavilla järjestyy aakkosjärjestyksen perusteella
 
--   Verkon saalis tietojen "Tilastot"- välilehdelle lisätty keskipituus, joka päivittyy sitä mukaa kun määriä syötetään
+- Verkon saalis tietojen "Tilastot"- välilehdelle lisätty keskipituus, joka päivittyy sitä mukaa kun määriä syötetään
 
--   Hankelistaus lisätty "kalastus"- tauluun. Uusia hankkeita voi myös lisätä käsin.
+- Hankelistaus lisätty "kalastus"- tauluun. Uusia hankkeita voi myös lisätä käsin.
 
--   Havaintipaikka näkymäään lisätty edellinen kalastustapahtuma- välilehti, jossa näytetään tietoja edellisesta verkon saaliista. Tiedot näkyvät heti kun uudet tiedot on tallennettu.
+- Havaintipaikka näkymäään lisätty edellinen kalastustapahtuma- välilehti, jossa näytetään tietoja edellisesta verkon saaliista. Tiedot näkyvät heti kun uudet tiedot on tallennettu.
